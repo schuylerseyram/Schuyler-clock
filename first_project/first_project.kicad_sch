@@ -1011,7 +1011,7 @@
   )
 
   (no_connect (at 50.8 137.16) (uuid d690df62-ae63-4f0a-a29b-ac1a45590031))
-  (no_connect (at 284.48 118.11) (uuid d690df62-ae63-4f0a-a29b-ac1a45590031))
+  (no_connect (at 284.48 118.11) (uuid d690df62-ae63-4f0a-a29b-ac1a45590032))
 
   (wire (pts (xy 276.86 95.25) (xy 283.21 95.25))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1251,7 +1251,7 @@
     (uuid faa3b86f-494a-46bb-bfe2-80154649d473)
   )
 
-  (global_label "LED_SCK" (shape input) (at 232.41 90.17 0) (fields_autoplaced)
+  (global_label "LED_SCK" (shape output) (at 232.41 90.17 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5c83f69b-bd48-44e2-b278-bc30a59091d4)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 242.9874 90.0906 0)
