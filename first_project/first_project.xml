@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/schuyler/Documents/HPS/Schuyler-clock/first_project/first_project.kicad_sch</source>
+    <date>Mon 04 Jul 2022 12:55:24 AM EDT</date>
+    <tool>Eeschema 6.0.6-3a73a75311~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>first_project.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>footprints:BatteryHolder_Keystone_106_1x20mm</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/Coin_Cell_Guide.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">BS-7-ND</field>
+        <field name="MFG">MPD (Memory Protection Devices)</field>
+        <field name="MPN">BS-7</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="MFG" value="MPD (Memory Protection Devices)"/>
+      <property name="MPN" value="BS-7"/>
+      <property name="Digikey PN" value="BS-7-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60b93721-29de-4526-97be-5841f1031a2f</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>CP (1uF)</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">490-5523-1-ND</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E106KA73L</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_10uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E106KA73L"/>
+      <property name="Digikey PN" value="490-5523-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63fe69fa-19f2-4018-bfe2-85b6913817f2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C (0.1uF)</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="MFG">AVX Corporation</field>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_0.1uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="AVX Corporation"/>
+      <property name="MPN" value="08055C104KAT2A"/>
+      <property name="Digikey PN" value="478-1395-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a193e0e-f417-4e70-afe6-70c1ec276b62</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22pf</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">311-1103-1-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">CC0805JRNPO9BN220</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_22pf" description="Non polarized capacitor"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="CC0805JRNPO9BN220"/>
+      <property name="Digikey PN" value="311-1103-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e18c6c5-49cd-42dd-8bf2-5c8a36f8b156</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C(0.1uF)</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">311-1456-1-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_1uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="CC0805KKX7R8BB105"/>
+      <property name="Digikey PN" value="311-1456-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8ab444e-b777-418e-ac8e-74bcf0443e4e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22pf</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">311-1103-1-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">CC0805JRNPO9BN220</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_22pf" description="Non polarized capacitor"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="CC0805JRNPO9BN220"/>
+      <property name="Digikey PN" value="311-1103-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f67bbea-90ed-4ac8-9342-2215b3cadb97</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>C_0805_0.1uf</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="MFG">AVX Corporation</field>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_0.1uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="AVX Corporation"/>
+      <property name="MPN" value="08055C104KAT2A"/>
+      <property name="Digikey PN" value="478-1395-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d99a3cc1-80f2-41df-9408-aaf4589d456f</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C(0.1uf)</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="MFG">AVX Corporation</field>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_0.1uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="AVX Corporation"/>
+      <property name="MPN" value="08055C104KAT2A"/>
+      <property name="Digikey PN" value="478-1395-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7869aba-7c1d-4121-b45f-5117350b0d3b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>C_0805_0.1uf</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="MFG">AVX Corporation</field>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_0.1uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="AVX Corporation"/>
+      <property name="MPN" value="08055C104KAT2A"/>
+      <property name="Digikey PN" value="478-1395-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dd64d0a-cd98-4abc-8135-fb47ba09d28a</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>C_0805_0.1uf</value>
+      <footprint>footprints:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">N/A</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="MFG">AVX Corporation</field>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Tolerance">N/A</field>
+        <field name="Voltage">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="C_0805_0.1uf" description="Non polarized capacitor"/>
+      <property name="MFG" value="AVX Corporation"/>
+      <property name="MPN" value="08055C104KAT2A"/>
+      <property name="Digikey PN" value="478-1395-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Voltage" value="N/A"/>
+      <property name="Dielectric" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eefcd833-f3bd-4571-a107-95e3850db2a3</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/150080RS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4984-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080RS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080RS75000"/>
+      <property name="Digikey PN" value="732-4984-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1a32e71-1c04-4b5b-abef-668d7d3322a4</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb95c26e-5242-4909-a206-8db0dd0f45cc</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd281c25-2115-4b62-b972-0dc92724f7a9</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79ed9761-aec6-463c-a2c4-9b8b409ae105</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acd34dd7-fa35-443c-9299-70fb60e8eb6a</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60fa471b-4702-4c61-9be2-e8601e6af0b4</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7ef404f-0dfa-48f1-aa46-dc3725c8e3ea</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LED_0805_GRN</value>
+      <footprint>footprints:LED_0805_2012Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="LED_0805_GRN" description="RED Light emitting diode"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="150080VS75000"/>
+      <property name="Digikey PN" value="732-4986-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>783b439c-1d67-485b-a8a2-f2ae7d0169e8</tstamps>
+    </comp>
+    <comp ref="DS1">
+      <value>LED_Display_1001</value>
+      <footprint>footprints:Adafruit-1001-0-0-MFG</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/1001datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">1528-1513-ND</field>
+        <field name="MFG">Adafruit Industries LLC</field>
+        <field name="MPN">1001</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="automotive">No</field>
+        <field name="category">Disp</field>
+        <field name="device class L1">Optoelectronics</field>
+        <field name="device class L2">Displays</field>
+        <field name="device class L3">LED Displays</field>
+        <field name="digikey description">WHITE 7-SEGMENT CLOCK DISPLAY</field>
+        <field name="digikey part number">1528-1513-ND</field>
+        <field name="display type">LED</field>
+        <field name="element config">Common Cathode</field>
+        <field name="forward current">20mA</field>
+        <field name="forward voltage">3.2V</field>
+        <field name="height">8.25mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">a002f1a2b35db532</field>
+        <field name="luminous intensity">30mcd</field>
+        <field name="manufacturer">Adafruit</field>
+        <field name="mouser description">Adafruit Accessories White 7-segment Clock Display</field>
+        <field name="mouser part number">485-1001</field>
+        <field name="package">PTH_50MM2_19MM0</field>
+        <field name="power dissipation">100mW</field>
+        <field name="reverse voltage">5V</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+80°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="test current">20mA</field>
+      </fields>
+      <libsource lib="HPS" part="LED_Display_1001" description="White 7-segment clock display - 0.56&quot; digit height"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Disp"/>
+      <property name="device class L1" value="Optoelectronics"/>
+      <property name="device class L2" value="Displays"/>
+      <property name="device class L3" value="LED Displays"/>
+      <property name="digikey description" value="WHITE 7-SEGMENT CLOCK DISPLAY"/>
+      <property name="digikey part number" value="1528-1513-ND"/>
+      <property name="display type" value="LED"/>
+      <property name="element config" value="Common Cathode"/>
+      <property name="forward current" value="20mA"/>
+      <property name="forward voltage" value="3.2V"/>
+      <property name="height" value="8.25mm"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="a002f1a2b35db532"/>
+      <property name="luminous intensity" value="30mcd"/>
+      <property name="manufacturer" value="Adafruit"/>
+      <property name="mouser description" value="Adafruit Accessories White 7-segment Clock Display"/>
+      <property name="mouser part number" value="485-1001"/>
+      <property name="package" value="PTH_50MM2_19MM0"/>
+      <property name="power dissipation" value="100mW"/>
+      <property name="reverse voltage" value="5V"/>
+      <property name="rohs" value="Yes"/>
+      <property name="temperature range high" value="+80°C"/>
+      <property name="temperature range low" value="-40°C"/>
+      <property name="test current" value="20mA"/>
+      <property name="MFG" value="Adafruit Industries LLC"/>
+      <property name="MPN" value="1001"/>
+      <property name="Digikey PN" value="1528-1513-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3381423-2ba6-48b5-9a39-fc7a513c72f3</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>footprints:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="HPS" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3078fc62-fc65-44c3-8730-e98e32046f59</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>footprints:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="HPS" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1b74aee-c522-4f09-8a32-d988840903cc</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>footprints:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="HPS" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29106fb5-143e-4e20-878e-052e2b3383b0</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>footprints:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="HPS" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffd5166d-7739-4a03-8f62-5a872b1e1625</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06</value>
+      <footprint>footprints:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.we-online.de/katalog/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">732-5319-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">61300611121</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Conn_01x06" description="Generic connector, vertical single row, 01x06"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MPN" value="61300611121"/>
+      <property name="Digikey PN" value="732-5319-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb32587c-c694-4eb5-a75d-c7a5ff25f940</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PJ-102AH</value>
+      <footprint>footprints:PJ-102AH</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/pj-102ah.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">CP-102AH-ND</field>
+        <field name="MFG">CUI Devices</field>
+        <field name="MPN">PJ-102AH</field>
+        <field name="Mouser PN">490-PJ-102AH</field>
+      </fields>
+      <libsource lib="HPS" part="PJ-102AH" description=" 2mm center pin, 5A DC power jack"/>
+      <property name="MFG" value="CUI Devices"/>
+      <property name="MPN" value="PJ-102AH"/>
+      <property name="Digikey PN" value="CP-102AH-ND"/>
+      <property name="Mouser PN" value="490-PJ-102AH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13493059-5949-4d3e-8a29-c57c9f67b1eb</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>footprints:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://drawings-pdf.s3.amazonaws.com/11636.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">S2011EC-03-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MPN">PRPC003DAAN-RC</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Conn_02x03_Odd_Even" description=""/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MPN" value="PRPC003DAAN-RC"/>
+      <property name="Digikey PN" value="S2011EC-03-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67362294-e796-47a5-a659-0cccf781ba57</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.2K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-072K2L/727676</datasheet>
+      <fields>
+        <field name="Digikey PN">311-2.20KCRCT-ND</field>
+        <field name="MFG">N/A</field>
+        <field name="MPN">N/A</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_2.2K" description=""/>
+      <property name="MFG" value="N/A"/>
+      <property name="MPN" value="N/A"/>
+      <property name="Digikey PN" value="311-2.20KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a658bd3a-6aaf-4c40-94e0-4271dbbc6fca</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef011133-eb1d-4ea5-b6f2-0a205871d971</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R_0805_4.7K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K7L/727929</datasheet>
+      <fields>
+        <field name="Digikey PN">311-4.70KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_4.7K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Digikey PN" value="311-4.70KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>602a156b-bf69-48f1-a319-36f3f05087cb</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_0805_4.7K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K7L/727929</datasheet>
+      <fields>
+        <field name="Digikey PN">311-4.70KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_4.7K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Digikey PN" value="311-4.70KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c82d345f-d17e-4d6d-ba9d-18f5c2b07be8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32562ea7-9c58-4c96-a917-3e5adc46d2b1</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61b36934-4ebc-41ce-abf5-ee2e893e24d6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>654a5fbc-131a-42e4-9646-73408cad9cf6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db86e993-0323-46b0-adc2-8597396609cc</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4db65d77-25e3-4d45-9e0e-e00e918019b6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R_0805_22K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722KL/727736</datasheet>
+      <fields>
+        <field name="Digikey PN">311-22.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0722KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_22K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0722KL"/>
+      <property name="Digikey PN" value="311-22.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f97a8dc-92ef-4f90-bfda-8688d6e08013</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>989cc89a-08a3-43b7-839f-a17dfc3ad928</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a97f2a4-6c75-4863-9973-9338b17f8a88</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Omron_B3F_SPST</value>
+      <footprint>footprints:SW_SPST_Omron_B3FS-100xP</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">SW423CT-ND</field>
+        <field name="MFG">Omron Electronics Inc-EMC Div</field>
+        <field name="MPN">B3FS-1000P</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Omron_B3F_SPST" description="Omron B3F Single Pole Single Throw (SPST) 4 pin switch"/>
+      <property name="MFG" value="Omron Electronics Inc-EMC Div"/>
+      <property name="MPN" value="B3FS-1000P"/>
+      <property name="Digikey PN" value="SW423CT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45bc3c71-6ebe-4d05-a8fa-ab636cf9c1da</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Omron_B3F_SPST</value>
+      <footprint>footprints:SW_SPST_Omron_B3FS-100xP</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">SW423CT-ND</field>
+        <field name="MFG">Omron Electronics Inc-EMC Div</field>
+        <field name="MPN">B3FS-1000P</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Omron_B3F_SPST" description="Omron B3F Single Pole Single Throw (SPST) 4 pin switch"/>
+      <property name="MFG" value="Omron Electronics Inc-EMC Div"/>
+      <property name="MPN" value="B3FS-1000P"/>
+      <property name="Digikey PN" value="SW423CT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3fb2f10-45bd-4d91-96d5-3f7e79556697</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Omron_B3F_SPST</value>
+      <footprint>footprints:SW_SPST_Omron_B3FS-100xP</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">SW423CT-ND</field>
+        <field name="MFG">Omron Electronics Inc-EMC Div</field>
+        <field name="MPN">B3FS-1000P</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Omron_B3F_SPST" description="Omron B3F Single Pole Single Throw (SPST) 4 pin switch"/>
+      <property name="MFG" value="Omron Electronics Inc-EMC Div"/>
+      <property name="MPN" value="B3FS-1000P"/>
+      <property name="Digikey PN" value="SW423CT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc478128-dead-4f73-a2d5-3570bd6d4a11</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Omron_B3F_SPST</value>
+      <footprint>footprints:SW_SPST_Omron_B3FS-100xP</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">SW423CT-ND</field>
+        <field name="MFG">Omron Electronics Inc-EMC Div</field>
+        <field name="MPN">B3FS-1000P</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Omron_B3F_SPST" description="Omron B3F Single Pole Single Throw (SPST) 4 pin switch"/>
+      <property name="MFG" value="Omron Electronics Inc-EMC Div"/>
+      <property name="MPN" value="B3FS-1000P"/>
+      <property name="Digikey PN" value="SW423CT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06e9398a-5b28-4cab-bf2a-3ad2f6ca40e6</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>Omron_B3F_SPST</value>
+      <footprint>footprints:SW_SPST_Omron_B3FS-100xP</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">SW423CT-ND</field>
+        <field name="MFG">Omron Electronics Inc-EMC Div</field>
+        <field name="MPN">B3FS-1000P</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Omron_B3F_SPST" description="Omron B3F Single Pole Single Throw (SPST) 4 pin switch"/>
+      <property name="MFG" value="Omron Electronics Inc-EMC Div"/>
+      <property name="MPN" value="B3FS-1000P"/>
+      <property name="Digikey PN" value="SW423CT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f24b4d-bd35-4d03-8edf-eb0b749efb4f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega328-PU</value>
+      <footprint>footprints:DIP-28_W7.62mm</footprint>
+      <datasheet>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</datasheet>
+      <fields>
+        <field name="Digikey PN">ED3050-5-ND</field>
+        <field name="MFG">On Shore Technology Inc.</field>
+        <field name="MPN">ED281DT</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="ATmega328-PU" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28"/>
+      <property name="MFG" value="On Shore Technology Inc."/>
+      <property name="MPN" value="ED281DT"/>
+      <property name="Digikey PN" value="ED3050-5-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d66c2e9-a3cc-4f6b-a5e9-8b280f7156ab</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>L7805_TO92</value>
+      <footprint>footprints:TO-92_Inline</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">497-1443-5-ND</field>
+        <field name="MFG">STMicroelectronics</field>
+        <field name="MPN">L7805CV</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="L7805_TO92" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"/>
+      <property name="MFG" value="STMicroelectronics"/>
+      <property name="MPN" value="L7805CV"/>
+      <property name="Digikey PN" value="497-1443-5-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fe19869-bc65-458c-895e-e1512759b6bf</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DS1307_DIP-8</value>
+      <footprint>footprints:DIP-8_W7.62mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">AE9986-ND</field>
+        <field name="MFG">Assmann WSW Components</field>
+        <field name="MPN">A 08-LC-TT</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="DS1307_DIP-8" description="64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8"/>
+      <property name="MFG" value="Assmann WSW Components"/>
+      <property name="MPN" value="A 08-LC-TT"/>
+      <property name="Digikey PN" value="AE9986-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8130c85-9178-412d-89fb-797deee35bdc</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MAX7219</value>
+      <footprint>footprints:DIP-24_W7.62mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">ED3049-5-ND</field>
+        <field name="MFG">On Shore Technology Inc.</field>
+        <field name="MPN">ED241DT</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="MAX7219" description="8-Digit LED Display Driver"/>
+      <property name="MFG" value="On Shore Technology Inc."/>
+      <property name="MPN" value="ED241DT"/>
+      <property name="Digikey PN" value="ED3049-5-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a07024c4-a314-411d-b48c-6ff8b125bec3</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal(16MHz)</value>
+      <footprint>footprints:Crystal_SMD_2Pin_3.2x1.5mm</footprint>
+      <datasheet>https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">1908-1314-1-ND</field>
+        <field name="MFG">Jauch Quartz</field>
+        <field name="MPN">Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Crystal_32768Hz" description="Two pin 16 MHz crystal in HC-49 SMD footprint."/>
+      <property name="MFG" value="Jauch Quartz"/>
+      <property name="MPN" value="Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF"/>
+      <property name="Digikey PN" value="1908-1314-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6442dc18-36db-40d9-883c-94941bf3bbe3</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal_32768Hz</value>
+      <footprint>footprints:Crystal_SMD_2Pin_3.2x1.5mm</footprint>
+      <datasheet>https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">1908-1314-1-ND</field>
+        <field name="MFG">Jauch Quartz</field>
+        <field name="MPN">Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Crystal_32768Hz" description="Two pin 16 MHz crystal in HC-49 SMD footprint."/>
+      <property name="MFG" value="Jauch Quartz"/>
+      <property name="MPN" value="Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF"/>
+      <property name="Digikey PN" value="1908-1314-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="first_project.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7222d863-1ba9-4d7f-83c8-58fde0704cc4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="HPS" part="ATmega328-PU">
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28</description>
+      <docs>http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega328-PU</field>
+        <field name="Footprint">footprints:DIP-28_W7.62mm</field>
+        <field name="Datasheet">http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326</field>
+        <field name="MFG">On Shore Technology Inc.</field>
+        <field name="MPN">ED281DT</field>
+        <field name="Digikey PN">ED3050-5-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}/PC6" type="tri_state"/>
+        <pin num="2" name="PD0" type="tri_state"/>
+        <pin num="3" name="PD1" type="tri_state"/>
+        <pin num="4" name="PD2" type="tri_state"/>
+        <pin num="5" name="PD3" type="tri_state"/>
+        <pin num="6" name="PD4" type="tri_state"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XTAL1/PB6" type="tri_state"/>
+        <pin num="10" name="XTAL2/PB7" type="tri_state"/>
+        <pin num="11" name="PD5" type="tri_state"/>
+        <pin num="12" name="PD6" type="tri_state"/>
+        <pin num="13" name="PD7" type="tri_state"/>
+        <pin num="14" name="PB0" type="tri_state"/>
+        <pin num="15" name="PB1" type="tri_state"/>
+        <pin num="16" name="PB2" type="tri_state"/>
+        <pin num="17" name="PB3" type="tri_state"/>
+        <pin num="18" name="PB4" type="tri_state"/>
+        <pin num="19" name="PB5" type="tri_state"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="passive"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="PC0" type="tri_state"/>
+        <pin num="24" name="PC1" type="tri_state"/>
+        <pin num="25" name="PC2" type="tri_state"/>
+        <pin num="26" name="PC3" type="tri_state"/>
+        <pin num="27" name="PC4" type="tri_state"/>
+        <pin num="28" name="PC5" type="tri_state"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/Coin_Cell_Guide.pdf</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint">footprints:BatteryHolder_Keystone_106_1x20mm</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/Coin_Cell_Guide.pdf</field>
+        <field name="MFG">MPD (Memory Protection Devices)</field>
+        <field name="MPN">BS-7</field>
+        <field name="Digikey PN">BS-7-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="C_0805_0.1uf">
+      <description>Non polarized capacitor</description>
+      <docs>https://datasheets.avx.com/X7RDielectric.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_0.1uf</field>
+        <field name="Footprint">footprints:C_0805_2012Metric</field>
+        <field name="Datasheet">https://datasheets.avx.com/X7RDielectric.pdf</field>
+        <field name="MFG">AVX Corporation</field>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="Digikey PN">478-1395-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Voltage">N/A</field>
+        <field name="Dielectric">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="C_0805_10uf">
+      <description>Non polarized capacitor</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_10uf</field>
+        <field name="Footprint">footprints:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61E106KA73-01.pdf</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E106KA73L</field>
+        <field name="Digikey PN">490-5523-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Voltage">N/A</field>
+        <field name="Dielectric">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="C_0805_1uf">
+      <description>Non polarized capacitor</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_1uf</field>
+        <field name="Footprint">footprints:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">CC0805KKX7R8BB105</field>
+        <field name="Digikey PN">311-1456-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Voltage">N/A</field>
+        <field name="Dielectric">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="C_0805_22pf">
+      <description>Non polarized capacitor</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_22pf</field>
+        <field name="Footprint">footprints:C_0805_2012Metric</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GP_NP0_16V-to-50V_18.pdf</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">CC0805JRNPO9BN220</field>
+        <field name="Digikey PN">311-1103-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Voltage">N/A</field>
+        <field name="Dielectric">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="Conn_01x06">
+      <description>Generic connector, vertical single row, 01x06</description>
+      <docs>https://www.we-online.de/katalog/datasheet/6130xx11121.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint">footprints:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://www.we-online.de/katalog/datasheet/6130xx11121.pdf</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">61300611121</field>
+        <field name="Digikey PN">732-5319-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="Conn_02x03_Odd_Even">
+      <docs>https://drawings-pdf.s3.amazonaws.com/11636.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Footprint">footprints:PinHeader_2x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://drawings-pdf.s3.amazonaws.com/11636.pdf</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MPN">PRPC003DAAN-RC</field>
+        <field name="Digikey PN">S2011EC-03-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="Crystal_32768Hz">
+      <description>Two pin 16 MHz crystal in HC-49 SMD footprint.</description>
+      <docs>https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_32768Hz</field>
+        <field name="Footprint">footprints:Crystal_SMD_2Pin_3.2x1.5mm</field>
+        <field name="Datasheet">https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</field>
+        <field name="MFG">Jauch Quartz</field>
+        <field name="MPN">Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF</field>
+        <field name="Digikey PN">1908-1314-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="DS1307_DIP-8">
+      <description>64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS1307_DIP-8</field>
+        <field name="Footprint">footprints:DIP-8_W7.62mm</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</field>
+        <field name="MFG">Assmann WSW Components</field>
+        <field name="MPN">A 08-LC-TT</field>
+        <field name="Digikey PN">AE9986-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="input"/>
+        <pin num="2" name="X2" type="input"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="SQW/OUT" type="open_collector"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="L7805_TO92">
+      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805_TO92</field>
+        <field name="Footprint">footprints:TO-92_Inline</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</field>
+        <field name="MFG">STMicroelectronics</field>
+        <field name="MPN">L7805CV</field>
+        <field name="Digikey PN">497-1443-5-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="LED_0805">
+      <description>RED Light emitting diode</description>
+      <docs>https://www.we-online.de/katalog/datasheet/150080RS75000.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0805</field>
+        <field name="Footprint">footprints:LED_0805_2012Metric</field>
+        <field name="Datasheet">https://www.we-online.de/katalog/datasheet/150080RS75000.pdf</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080RS75000</field>
+        <field name="Digikey PN">732-4984-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="LED_0805_GRN">
+      <description>RED Light emitting diode</description>
+      <docs>https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0805_GRN</field>
+        <field name="Footprint">footprints:LED_0805_2012Metric</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/150080VS75000.pdf</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MPN">150080VS75000</field>
+        <field name="Digikey PN">732-4986-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="LED_Display_1001">
+      <description>White 7-segment clock display - 0.56" digit height</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/1001datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">LED_Display_1001</field>
+        <field name="Footprint">footprints:Adafruit-1001-0-0-MFG</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/1001datasheet.pdf</field>
+        <field name="automotive">No</field>
+        <field name="category">Disp</field>
+        <field name="device class L1">Optoelectronics</field>
+        <field name="device class L2">Displays</field>
+        <field name="device class L3">LED Displays</field>
+        <field name="digikey description">WHITE 7-SEGMENT CLOCK DISPLAY</field>
+        <field name="digikey part number">1528-1513-ND</field>
+        <field name="display type">LED</field>
+        <field name="element config">Common Cathode</field>
+        <field name="forward current">20mA</field>
+        <field name="forward voltage">3.2V</field>
+        <field name="height">8.25mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">a002f1a2b35db532</field>
+        <field name="luminous intensity">30mcd</field>
+        <field name="manufacturer">Adafruit</field>
+        <field name="mouser description">Adafruit Accessories White 7-segment Clock Display</field>
+        <field name="mouser part number">485-1001</field>
+        <field name="package">PTH_50MM2_19MM0</field>
+        <field name="power dissipation">100mW</field>
+        <field name="reverse voltage">5V</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+80°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="test current">20mA</field>
+        <field name="MFG">Adafruit Industries LLC</field>
+        <field name="MPN">1001</field>
+        <field name="Digikey PN">1528-1513-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="DP" type="passive"/>
+        <pin num="4" name="C" type="passive"/>
+        <pin num="5" name="G" type="passive"/>
+        <pin num="6" name="COM_DIG.4" type="passive"/>
+        <pin num="7" name="COM_COLON" type="passive"/>
+        <pin num="8" name="COLON" type="passive"/>
+        <pin num="9" name="B" type="passive"/>
+        <pin num="10" name="COM_DIG.3" type="passive"/>
+        <pin num="11" name="COM_DIG.2" type="passive"/>
+        <pin num="12" name="F" type="passive"/>
+        <pin num="13" name="A" type="passive"/>
+        <pin num="14" name="COM_DIG.1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="MAX7219">
+      <description>8-Digit LED Display Driver</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x15.4mm*P1.27mm*</fp>
+        <fp>DIP*7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX7219</field>
+        <field name="Footprint">footprints:DIP-24_W7.62mm</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf</field>
+        <field name="MFG">On Shore Technology Inc.</field>
+        <field name="MPN">ED241DT</field>
+        <field name="Digikey PN">ED3049-5-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="DIG_0" type="output"/>
+        <pin num="3" name="DIG_4" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIG_6" type="output"/>
+        <pin num="6" name="DIG_2" type="output"/>
+        <pin num="7" name="DIG_3" type="output"/>
+        <pin num="8" name="DIG_7" type="output"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="DIG_5" type="output"/>
+        <pin num="11" name="DIG_1" type="output"/>
+        <pin num="12" name="LOAD" type="input"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="SEG_A" type="output"/>
+        <pin num="15" name="SEG_F" type="output"/>
+        <pin num="16" name="SEG_B" type="output"/>
+        <pin num="17" name="SEG_G" type="output"/>
+        <pin num="18" name="ISET" type="input"/>
+        <pin num="19" name="V+" type="power_in"/>
+        <pin num="20" name="SEG_C" type="output"/>
+        <pin num="21" name="SEG_E" type="output"/>
+        <pin num="22" name="SEG_DP" type="output"/>
+        <pin num="23" name="SEG_D" type="output"/>
+        <pin num="24" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="HPS" part="Omron_B3F_SPST">
+      <description>Omron B3F Single Pole Single Throw (SPST) 4 pin switch</description>
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Omron_B3F_SPST</field>
+        <field name="Footprint">footprints:SW_SPST_Omron_B3FS-100xP</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf</field>
+        <field name="MFG">Omron Electronics Inc-EMC Div</field>
+        <field name="MPN">B3FS-1000P</field>
+        <field name="Digikey PN">SW423CT-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="PJ-102AH">
+      <description> 2mm center pin, 5A DC power jack</description>
+      <docs>https://www.cuidevices.com/product/resource/pj-102ah.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-102AH</field>
+        <field name="Footprint">footprints:PJ-102AH</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/pj-102ah.pdf</field>
+        <field name="MFG">CUI Devices</field>
+        <field name="MPN">PJ-102AH</field>
+        <field name="Digikey PN">CP-102AH-ND</field>
+        <field name="Mouser PN">490-PJ-102AH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="POLE" type="passive"/>
+        <pin num="2" name="OUT" type="passive"/>
+        <pin num="3" name="OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="R_0805_10K">
+      <docs>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0805_10K</field>
+        <field name="Footprint">footprints:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="R_0805_2.2K">
+      <docs>https://www.digikey.com/en/products/detail/yageo/RC0805FR-072K2L/727676</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0805_2.2K</field>
+        <field name="Footprint">footprints:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.digikey.com/en/products/detail/yageo/RC0805FR-072K2L/727676</field>
+        <field name="MFG">N/A</field>
+        <field name="MPN">N/A</field>
+        <field name="Digikey PN">311-2.20KCRCT-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="R_0805_22K">
+      <docs>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722KL/727736</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0805_22K</field>
+        <field name="Footprint">footprints:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.digikey.com/en/products/detail/yageo/RC0805FR-0722KL/727736</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0722KL</field>
+        <field name="Digikey PN">311-22.0KCRCT-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="R_0805_4.7K">
+      <docs>https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K7L/727929</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0805_4.7K</field>
+        <field name="Footprint">footprints:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K7L/727929</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Digikey PN">311-4.70KCRCT-ND</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="HPS">
+      <uri>/home/schuyler/Documents/HPS/hps-kicad-library/symbols/HPS.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DIG_0">
+      <node ref="DS1" pin="14" pinfunction="COM_DIG.1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="DIG_0" pintype="output"/>
+    </net>
+    <net code="2" name="/DIG_1">
+      <node ref="DS1" pin="11" pinfunction="COM_DIG.2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="DIG_1" pintype="output"/>
+    </net>
+    <net code="3" name="/DIG_2">
+      <node ref="DS1" pin="10" pinfunction="COM_DIG.3" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="DIG_2" pintype="output"/>
+    </net>
+    <net code="4" name="/DIG_3">
+      <node ref="DS1" pin="6" pinfunction="COM_DIG.4" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="DIG_3" pintype="output"/>
+    </net>
+    <net code="5" name="/DIG_4">
+      <node ref="DS1" pin="7" pinfunction="COM_COLON" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="DIG_4" pintype="output"/>
+    </net>
+    <net code="6" name="/SEG_A">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="13" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="SEG_A" pintype="output"/>
+    </net>
+    <net code="7" name="/SEG_B">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="9" pinfunction="B" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="SEG_B" pintype="output"/>
+    </net>
+    <net code="8" name="/SEG_C">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="4" pinfunction="C" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="SEG_C" pintype="output"/>
+    </net>
+    <net code="9" name="/SEG_D">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="SEG_D" pintype="output"/>
+    </net>
+    <net code="10" name="/SEG_DP">
+      <node ref="DS1" pin="3" pinfunction="DP" pintype="passive"/>
+      <node ref="DS1" pin="8" pinfunction="COLON" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="SEG_DP" pintype="output"/>
+    </net>
+    <net code="11" name="/SEG_E">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="SEG_E" pintype="output"/>
+    </net>
+    <net code="12" name="/SEG_F">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="12" pinfunction="F" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="SEG_F" pintype="output"/>
+    </net>
+    <net code="13" name="/SEG_G">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DS1" pin="5" pinfunction="G" pintype="passive"/>
+      <node ref="U4" pin="17" pinfunction="SEG_G" pintype="output"/>
+    </net>
+    <net code="14" name="/XTAL1">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="XTAL1/PB6" pintype="tri_state"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/XTAL2">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="XTAL2/PB7" pintype="tri_state"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="BTN_DAY">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW5" pin="4" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="tri_state"/>
+    </net>
+    <net code="17" name="BTN_HOUR">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW3" pin="4" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PD4" pintype="tri_state"/>
+    </net>
+    <net code="18" name="BTN_MIN">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW4" pin="4" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PD7" pintype="tri_state"/>
+    </net>
+    <net code="19" name="BTN_SETOPT">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PD2" pintype="tri_state"/>
+    </net>
+    <net code="20" name="DISP_CLK">
+      <node ref="U1" pin="12" pinfunction="PD6" pintype="tri_state"/>
+      <node ref="U4" pin="13" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="21" name="DISP_DATA">
+      <node ref="U1" pin="11" pinfunction="PD5" pintype="tri_state"/>
+      <node ref="U4" pin="1" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="22" name="DISP_LOAD">
+      <node ref="U1" pin="5" pinfunction="PD3" pintype="tri_state"/>
+      <node ref="U4" pin="12" pinfunction="LOAD" pintype="input"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="OUT" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="24" name="LED_SCK">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PB5" pintype="tri_state"/>
+    </net>
+    <net code="25" name="MISO">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PB4" pintype="tri_state"/>
+    </net>
+    <net code="26" name="MOSI">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PB3" pintype="tri_state"/>
+    </net>
+    <net code="27" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="POLE" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="29" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="7" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="DIG_5" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="ISET" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="X1" pintype="input"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="X2" pintype="input"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="39" name="RESET">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{RESET}/PC6" pintype="tri_state"/>
+    </net>
+    <net code="40" name="RXD">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PD0" pintype="tri_state"/>
+    </net>
+    <net code="41" name="SCL_RTC">
+      <node ref="U1" pin="27" pinfunction="PC4" pintype="tri_state"/>
+      <node ref="U3" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="42" name="SDA_RTC">
+      <node ref="U1" pin="26" pinfunction="PC3" pintype="tri_state"/>
+      <node ref="U3" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="TXD">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PD1" pintype="tri_state"/>
+    </net>
+    <net code="44" name="VCC">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="19" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="45" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="OUT" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PB2" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PC0" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="PC1" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PC2" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PC5" pintype="tri_state"/>
+    </net>
+    <net code="53" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="SQW/OUT" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="DIG_6" pintype="output+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="DIG_7" pintype="output+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U4-Pad24)">
+      <node ref="U4" pin="24" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
